@@ -1,0 +1,10 @@
+jupyter-dash==0.4.0
+pandas==1.3.4
+gunicorn==20.1.0
+dash-bootstrap-components>=0.10.1
+yfinance==0.1.69
+statsmodels>=0.9.0
+matplotlib>=3.5.1
+seaborn>=0.9.0
+waitress
+sklearn
