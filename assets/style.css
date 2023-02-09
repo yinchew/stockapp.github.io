@@ -1,0 +1,159 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: #F7F7F7;
+}
+
+.header {
+    background-color: #222222;
+    height: 288px;
+    padding: 16px 0 0 0;
+}
+
+.header-emoji {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 38px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-title1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-description {
+    color: #CFCFCF;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 684px;
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1024px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px; #32px
+}
+
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    #position:relative; # make it can be overlap
+}
+
+.menu {
+    height: 112px;
+    width: 1112px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    margin: -80px auto 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.Select-control {
+    width: 256px;
+    height: 48px;
+}
+.input {
+    width: 256px;
+    height: 42px;
+    font-size: 15px;
+}
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    line-height: 48px;
+}
+
+.Select--multi .Select-value-label {
+    line-height: 32px;
+}
+
+.menu-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #079A82;
+}
+
+#.div-top-bar{
+#    height: 112px;
+#    width: 912px;
+#    display: flex;
+#    justify-content: space-evenly;
+#    padding-top: 24px;
+#    margin: 10px auto 0 auto;
+#    background-color: #FFFFFF;
+#    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+#}
+
+.div-top-bar{
+    height: 112px;
+    width: 712px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-top-fore-bar{
+    height: 112px;
+    width: 712px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p-top-bar{
+  color: #079A82;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.two-col{
+  display: inline-block;
+  width: 16.25%;
+  text-align: center;
+}
+
+.display-none{
+  display: none;
+}
+
+.div-currency-toggles{
+    #padding-left: 70px;
+    #margin: 40px auto 0 auto;
+    #position:absolute; # make it can overlap others elements
+    #z-index: 1; # to make it infront when overlapping the graph elements
+}
+
+.time{
+    #margin-bottom: 6px;
+    #font-weight: bold;
+    #color: #079A82;
+    font-size: 15px;
+    padding-left: 80px;
+}
+
+.button{
+    padding-left: 70px;
+    margin:10px;
+    
+}
+
+.sidebar{
+  #margin-top: 60px; /* Place content 60px from the top */
+  color: #079A82;
+  font-size: 18px;
+  font-weight: bold;
+}
